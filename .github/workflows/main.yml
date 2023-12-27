@@ -24,8 +24,3 @@ jobs:
       - name: Run Tests
         run: npm test
 
-# Notify on workflow success or failure
-notifications:
-  email:
-    on_success: always
-    on_failure: always
